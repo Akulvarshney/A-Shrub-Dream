@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('http://fonts.cdnfonts.com/css/freestyle-script');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+* {
+	padding: 0px;
+}
+
+/* logo */
+
+.logo img {
+	width: 120px;
+}
+
+/* navbar */
+
+a {
+	text-decoration: none;
+}
+
+.nav-area {
+	background: #efefef;
+	padding: 20px;
+	list-style: none;
+}
+.nav-area li {
+	display: inline-block;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+.nav-area li a {
+	transition: all 0.3s ease 0s;
+	color: black;
+}
+.nav-area li a:hover {
+	color: #02ac2a;
+}
+
+/* Display image */
+
+.scroll-image {
+	width: 100%;
+}
+
+#display-carousel {
+	margin: 20px;
+	background-color: white;
+}
+
+/* tagline */
+
+.tagline {
+	text-align: center;
+}
+
+.tagline h1 {
+	font-family: 'Freestyle Script', sans-serif;
+	margin-top: 30px;
+	font-size: 50px;
+	color: #02ac2a;
+}
+
+.tagline p {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 20px;
+	color: #704a00;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/* about */
+
+.second {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.second .about {
+	background-color: #704a00;
+}
+
+.second .about h1 {
+	font-family: 'Girassol', cursive;
+	margin: 30px 0;
+	text-align: center;
+	color: #02ac2a;
+	font-size: 70px;
+}
+
+.second .about p {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}
+
+.second .about2 {
+	background-color: #704a00;
+}
+
+.second .about2 img {
+	width: 100%;
+}
+
+.second .center {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.second .center .btn-rounded {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+}
+
+.second .center .btn-rounded:hover {
+	background-color: #02ac2a;
+	color: white;
+	padding: 10px 20px;
+}
+
+/* banner */
+
+.third {
+	margin-bottom: 100px;
+}
+
+.third .banner h1 {
+	text-align: center;
+	font-family: 'Girassol', cursive;
+	color: #704a00;
+	font-size: 50px;
+}
+.third .banner h2 {
+	text-align: center;
+	font-family: 'Girassol', cursive;
+	color: #704a00;
+	font-size: 30px;
+}
+
+.third .banner h1 {
+	margin-top: 50px;
+}
+
+.third .center {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.third .center .btn-rounded {
+	background-color: black;
+	color: white;
+	padding: 10px 40px;
+}
+
+.third .center .btn-rounded:hover {
+	background-color: #02ac2a;
+	color: white;
+	padding: 10px 40px;
+}
+
+/* Testimonials */
+.test h1 {
+	margin-top: 30px;
+	font-family: 'Girassol', cursive;
+	color: #02ac2a;
+	font-size: 50px;
+}
+
+.center {
+	display: block;
+	text-align: center;
+	width: auto;
+}
+
+.testimonial-text {
+	/* font-size: 2rem; */
+	line-height: 1.5;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#testimonial-carousel {
+	margin: 20px;
+	background-color: #efefef;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/* get in touch
+
+.fourth .contact {
+	margin: 10%;
+}
+
+.fourth h1 {
+	font-family: 'Girassol', cursive;
+	font-size: 40px;
+}
+
+.fourth p {
+	color: gray;
+	margin-top: 30px;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+}
+
+#contact {
+	margin-top: 70px;
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+
+#contact h1 {
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+}
+
+#contact .follow {
+	background-color: #efefef;
+	outline: 0;
+	padding-top: 30px;
+	font-size: 20px;
+	font-family: 'Caveat', cursive;
+}
+
+.contact-form {
+	padding: 15px;
+}
+
+.contact-form label {
+	color: black;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.form-group {
+	background-color: #efefef;
+}
+
+.contact-form input {
+	background-color: #efefef;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: black;
+}
+
+.contact-form textarea {
+	background-color: #efefef;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: black;
+}
+
+form .submit
+{
+	background: #02ac2a;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+form .submit:hover
+{
+	cursor: pointer;
+}
+
+.follow {
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+} */
+
+/* The Team */
+
+.team h1 {
+	margin-top: 50px;
+	font-family: 'Girassol', cursive;
+	color: #704a00;
+	font-size: 50px;
+}
+
+.team2 img {
+	width: 60%;
+}
+
+.third {
+	padding: 50px;
+}
+
+.name {
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+.team2 {
+	padding: 3% 2%;
+}
+
+.third .card-body p{
+	margin: 0;
+}
+
+.third .card-body a img {
+	margin-top: 35px;
+	width: 30px;
+}
+
+.card:hover {
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 10);
+}
+
+/* content */
+
+.small-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#heading {
+	margin: 50px 0 50px 0;
+	font-family: 'Girassol', cursive;
+	color: #704a00;
+	font-size: 50px;
+}
+
+.C-A{
+	font-family: 'Girassol', cursive;
+	margin: 30px 0;
+	text-align: center;
+	color: #02ac2a;
+	font-size: 70px;
+
+}
+
+.plants h4, .plants h5{
+	color: #704a00;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.buy{
+	margin-bottom: 30px;
+}
+
+.buy h1{
+	color: #704a00;
+}
+
+.plants img{
+	width: 100%;
+	
+}
+
+.center {
+	text-align: center;
+}
+
+.btn-rounded {
+	background-color: black;
+	color: white;
+}
+
+.btn-rounded:hover {
+	background-color: #02ac2a;
+	color: white;
+}
+
+/* card */
+
+.team h1 {
+	margin-top: 50px;
+	font-family: 'Girassol', cursive;
+	color: #704a00;
+	font-size: 50px;
+}
+
+.team3 img {
+	width: 60%;
+}
+
+.third {
+	padding: 50px;
+}
+
+.name {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+.card:hover {
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 10);
+}
+
+/* intern */
+
+.row {
+	text-align: center;
+}
+
+.image h3 {
+	padding-top: 25px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.image img {
+	width: 50%;
+}
+
+.image {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.perks h1 {
+	font-family: 'Freestyle Script', sans-serif;
+	font-size: 50px;
+	color: #02ac2a;
+	text-align: center;
+}
+
+.perks {
+	background-color: #efefef;
+}
+
+.perks p {
+	text-align: center;
+	color: #704a00;
+}
+
+
+/* footer */
+
+#footer {
+	background: #fff;
+	padding: 0 10px 8px;
+}
+.footer-image {
+	margin: 30px 0 0 0;
+	height: 150px;
+}
+#footer p {
+	color: rgb(85, 85, 85);
+}
+#footer a img {
+	width: 30px;
+	margin-left: 10px;
+}
